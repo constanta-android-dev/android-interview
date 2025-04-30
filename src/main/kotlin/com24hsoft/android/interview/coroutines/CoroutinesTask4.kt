@@ -35,5 +35,6 @@ fun main() {
         val entitiesDetails = repository.getEntitiesDetailsByIds(ids)
         val period = System.currentTimeMillis() - startTime
         println("Total time: $period ms")
+        println(entitiesDetails)
     }
 }
