@@ -16,7 +16,7 @@ class NetworkDataGetter {
         }.start()
     }
 
-    interface Callback {
+    fun interface Callback {
 
         fun onDataGot(data: String)
     }
